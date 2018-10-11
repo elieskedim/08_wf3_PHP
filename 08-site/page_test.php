@@ -3,6 +3,8 @@
 require_once 'inc/init.inc.php';
 require_once 'inc/haut.inc.php';
 
-echo 'ICI je mets le contenu de la page';
+$tab = ["Elies", "Kedim", "Tou"];
+echo $tab[-1];
+
 
 require_once 'inc/bas.inc.php';
